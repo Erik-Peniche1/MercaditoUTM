@@ -15,7 +15,7 @@ Console.WriteLine();
 // Consultar y mostrar productos existentes
 var servicio = new ConsultarProductosServicio();
 var lista = servicio.ConsultarProductos();
-Console.WriteLine("--- BIENVENIDO AL MERCADITO UTM ---");
+Console.WriteLine("--- SISTEMA MERCADITO UTM | Desarrollado por: Erik Peniche (EP) ---");
 foreach (var item in lista) {
     Console.WriteLine($"Producto: {item.Nombre} | Precio: ${item.Precio}");
 }
